@@ -19,7 +19,7 @@ router.post('/register', jsonParser, async (req, res) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(req.body.email)) {
         // Return a 400 status with an error message for invalid email format
-        console.log({error})
+        //console.log(error)
         return res.status(400).json({ error: 'Invalid email format' });
         
     }
