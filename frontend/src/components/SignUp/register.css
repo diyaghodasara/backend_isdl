@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #30475E; /* Updated background color */
+}
+
+.register-form {
+  max-width: 430px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  background: #edbab7; /* Updated background color */
+  color: #121212;
+  box-shadow: 5px 5px 5px rgb(155,190,200);
+}
+
+header {
+  font-size: 30px;
+  font-weight: 600;
+  color: #232836;
+  text-align: center;
+}
+
+.register-form {
+  margin-top: 30px;
+}
+
+.field {
+  position: relative;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.field input,
+.field button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 6px;
+  outline: none;
+}
+
+.field input {
+  padding: 0 15px;
+  border: 1px solid #c3e6ff;
+}
+
+.field input:focus {
+  border-bottom-width: 2px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #8b8b8b;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.field button {
+  color: #fff;
+  background-color: #30475E;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #c3e6ff;
+}
+
+.field button:hover {
+    text-decoration:underline;
+}
+
+.form-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-link span,
+.form-link a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #121212;
+}
+
+.form-link a {
+  color: #f05454;
+  text-decoration: none;
+}
+
+.form-content a:hover {
+  text-decoration: underline;
+}
+
+.line {
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 36px 0;
+  background-color: #30475E;
+}
+
+.line::before {
+  content: 'Or';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #30475E;
+  color: white;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .register-form {
+    padding: 20px 10px;
+  }
+}
+
+.login-link:hover{
+  text-decoration: underline;
+}

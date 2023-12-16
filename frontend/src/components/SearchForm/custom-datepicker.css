@@ -1,0 +1,49 @@
+/* Adjust the size and styling of the entire date picker */
+.react-datepicker {
+    font-size: 16px;
+  }
+  
+  /* Style the header of the date picker */
+  .react-datepicker__header {
+    background-color: #5a85b0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the header text (month and year) */
+  .react-datepicker__current-month,
+  .react-datepicker__current-year {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style individual days in the date picker */
+  .react-datepicker__day {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px;
+    text-align: center;
+  }
+  
+  /* Style the selected day */
+  .react-datepicker__day--selected {
+    background-color: #30475E;
+    color: #fff;
+  }
+  
+  /* Style today's date */
+  .react-datepicker__day--today {
+    font-weight: bold;
+  }
+  
+  /* Style the days of the week (Sun, Mon, etc.) */
+  .react-datepicker__day-name {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px;
+    text-align: center;
+    font-weight: bold;
+  }

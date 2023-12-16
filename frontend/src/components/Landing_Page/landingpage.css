@@ -1,0 +1,25 @@
+/* Add your existing styles here */
+.imgg {
+    background-image: url("../../Images/try1.5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.tit{
+    color: greenyellow;
+}
+.unique-mainBtn{
+    color: white;
+}
+.unique-mainBtn:hover{
+    color: #ff0000;
+}
+.land {
+    position: relative;
+    z-index: 2; /* Adjust this value */
+    text-align: center;
+    font-size: 30px;
+    padding-top: 300px;
+    /* Add other styles as needed */
+}

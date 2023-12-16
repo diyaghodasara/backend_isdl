@@ -1,0 +1,107 @@
+/* Colorful bus booking card with spacing and content boxes */
+.imggg {
+  background-image: url("../../Images/try1.5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: fit-content;
+  min-height: 900px;
+}
+
+.bus-booking-card {
+  background-color: #edbab7;
+  border: 3px solid #30475E;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+  width: 100%;
+  max-width: 900px; /* Set a max-width to avoid overflow */
+}
+
+.card-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-top: 1px solid #30475E;
+  border-bottom: 1px solid #30475E;
+}
+
+.bus-route {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.out{
+  font-weight: bold;
+  font-size: 16px;
+  color: #416180;
+}
+
+.departure-time,
+.bus-seats {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #30475E;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.departure-city,
+.arrival-city{
+  font-size: 25px;
+  color: #30475E;
+  margin: 0 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.bus-details {
+  display: flex;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.tag1,
+.tag2 {
+  display: flex;
+}
+
+
+.bus-details p {
+  font-size: 14px;
+  color: #f05454;
+}
+
+.booking-cta {
+  margin-left: auto; /* Align to the right by using auto margin */
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.book-now {
+  background-color: #30475E;
+  color: white;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.book-text:hover {
+  color: #f5f5f5;
+}
+
+
+.arrow-separators {
+  font-size: 32px;
+  padding-bottom: 10px;
+}

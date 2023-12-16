@@ -1,0 +1,51 @@
+/* tt.css */
+.tt-img{
+    background-image: url("../../Images/try1.5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: max-content;
+}
+
+.bus-timetable-container {
+    text-align: center;
+  }
+  
+  .timetable-heading {
+    font-weight: bold;
+  }
+  
+  .bus-timetable {
+    margin: 20px auto;
+    width: 70%;
+  }
+  
+  .timetable-table {
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .table-header,
+  td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #30475E;
+  }
+  
+  .table-header {
+    background-color: #30475E;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .table-heading{
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .table-d{
+    background-color: #efcfce;
+  }
+
+  
